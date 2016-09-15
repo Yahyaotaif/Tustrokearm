@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>445DDA04-BCAF-426F-84F3-1A9FBFC6BFA8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PTMotion</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D53553EE6749D720321C78C857B22D4AC3AA730A</key>
+		<string>https://github.com/davemess/PTMotion.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/PTMotion.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D53553EE6749D720321C78C857B22D4AC3AA730A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/davemess/PTMotion.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D53553EE6749D720321C78C857B22D4AC3AA730A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D53553EE6749D720321C78C857B22D4AC3AA730A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PTMotion</string>
+		</dict>
+	</array>
+</dict>
+</plist>

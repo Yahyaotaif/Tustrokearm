@@ -1,0 +1,64 @@
+{
+  "images" : [
+    {
+      "idiom" : "iphone"
+    },
+    {
+      "idiom" : "iphone",
+      "subtype" : "retina4"
+    },
+    {
+      "idiom" : "iphone",
+      "heightClass" : "compact"
+    },
+    {
+      "idiom" : "iphone",
+      "subtype" : "retina4",
+      "heightClass" : "compact"
+    },
+    {
+      "idiom" : "iphone",
+      "widthClass" : "compact"
+    },
+    {
+      "idiom" : "iphone",
+      "subtype" : "retina4",
+      "widthClass" : "compact"
+    },
+    {
+      "idiom" : "iphone",
+      "heightClass" : "compact",
+      "widthClass" : "compact"
+    },
+    {
+      "idiom" : "iphone",
+      "widthClass" : "compact",
+      "subtype" : "retina4",
+      "heightClass" : "compact"
+    },
+    {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "fill",
+          "width" : 1,
+          "height" : 1
+        },
+        "capInsets" : {
+          "bottom" : 341,
+          "top" : 340,
+          "right" : 32,
+          "left" : 32
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "logoArm.png",
+      "unassigned" : true,
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
