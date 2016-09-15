@@ -1,0 +1,1075 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		260CB7E31ADF28880038B4BA /* PTElbowRaiseSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260CB7E21ADF28880038B4BA /* PTElbowRaiseSViewController.m */; };
+		260CB7E61ADF29FA0038B4BA /* PTElbowRaiseSGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260CB7E51ADF29FA0038B4BA /* PTElbowRaiseSGameViewController.m */; };
+		260CB7EA1ADF30990038B4BA /* PTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260CB7E91ADF30990038B4BA /* PTSettingsViewController.m */; };
+		260CB7EE1AE38BA60038B4BA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260CB7ED1AE38BA60038B4BA /* ProfileViewController.m */; };
+		260CB7F21AE38F530038B4BA /* DailyGoalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260CB7F11AE38F530038B4BA /* DailyGoalsViewController.m */; };
+		267358EE1B37FAC000AFA613 /* lightning.gif in Resources */ = {isa = PBXBuildFile; fileRef = 267358EC1B37FAC000AFA613 /* lightning.gif */; };
+		267358EF1B37FAC000AFA613 /* manWalking.gif in Resources */ = {isa = PBXBuildFile; fileRef = 267358ED1B37FAC000AFA613 /* manWalking.gif */; };
+		267358F21B3815E000AFA613 /* AnimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267358F11B3815E000AFA613 /* AnimateViewController.m */; };
+		267359031B3978B500AFA613 /* AnimateViewControllerEFlex.m in Sources */ = {isa = PBXBuildFile; fileRef = 267358F41B3978B500AFA613 /* AnimateViewControllerEFlex.m */; };
+		267359041B3978B500AFA613 /* AnimateViewControllerFor.m in Sources */ = {isa = PBXBuildFile; fileRef = 267358F61B3978B500AFA613 /* AnimateViewControllerFor.m */; };
+		267359051B3978B500AFA613 /* AnimateViewControllerHoriz.m in Sources */ = {isa = PBXBuildFile; fileRef = 267358F81B3978B500AFA613 /* AnimateViewControllerHoriz.m */; };
+		267359061B3978B500AFA613 /* AnimateViewControllerRFront.m in Sources */ = {isa = PBXBuildFile; fileRef = 267358FA1B3978B500AFA613 /* AnimateViewControllerRFront.m */; };
+		267359071B3978B500AFA613 /* AnimateViewControllerRSide.m in Sources */ = {isa = PBXBuildFile; fileRef = 267358FC1B3978B500AFA613 /* AnimateViewControllerRSide.m */; };
+		267359081B3978B500AFA613 /* AnimateViewControllerSAdduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 267358FE1B3978B500AFA613 /* AnimateViewControllerSAdduct.m */; };
+		267359091B3978B500AFA613 /* AnimateViewControllerSFlex.m in Sources */ = {isa = PBXBuildFile; fileRef = 267359001B3978B500AFA613 /* AnimateViewControllerSFlex.m */; };
+		2673590A1B3978B500AFA613 /* AnimateViewControllerSRot.m in Sources */ = {isa = PBXBuildFile; fileRef = 267359021B3978B500AFA613 /* AnimateViewControllerSRot.m */; };
+		26CD8D351B257E8700EA1709 /* DailyGoals.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CD8D341B257E8700EA1709 /* DailyGoals.m */; };
+		26DD801C1B2F7E0300293B18 /* PTHorizShoulderRotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DD801B1B2F7E0300293B18 /* PTHorizShoulderRotViewController.m */; };
+		26DD801F1B2F7E3400293B18 /* PTHorizShoulderRotGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DD801E1B2F7E3400293B18 /* PTHorizShoulderRotGameViewController.m */; };
+		26DD80221B2F7E6800293B18 /* PTShoulderRealAbductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DD80211B2F7E6800293B18 /* PTShoulderRealAbductViewController.m */; };
+		26DD80251B2F7E9400293B18 /* PTShoulderRealAbductGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DD80241B2F7E9400293B18 /* PTShoulderRealAbductGameViewController.m */; };
+		C7CF3744C6DB6AC796431992 /* libPods-PTMotion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E562F87EE808B10F27463384 /* libPods-PTMotion.a */; };
+		CE23F68D1A584E54009A82B4 /* MonkeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE23F68C1A584E54009A82B4 /* MonkeyView.m */; };
+		CE23F6901A5856D0009A82B4 /* PTShoulderFlexionGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE23F68F1A5856D0009A82B4 /* PTShoulderFlexionGameViewController.m */; };
+		CE23F6931A5857E7009A82B4 /* PTForearmSupinationGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE23F6921A5857E7009A82B4 /* PTForearmSupinationGameViewController.m */; };
+		CE23F6961A585805009A82B4 /* PTForearmPronationGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE23F6951A585805009A82B4 /* PTForearmPronationGameViewController.m */; };
+		CE23F6991A585816009A82B4 /* PTShoulderAbductionGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE23F6981A585816009A82B4 /* PTShoulderAbductionGameViewController.m */; };
+		CE23F69C1A585884009A82B4 /* PTElbowFlexionGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE23F69B1A585884009A82B4 /* PTElbowFlexionGameViewController.m */; };
+		CE4EEC121A4DBD2E007AFFC4 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EEC111A4DBD2E007AFFC4 /* MainMenuViewController.m */; };
+		CE9AC3F819FF209A009CE0ED /* PTElbowRaiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9AC3F719FF209A009CE0ED /* PTElbowRaiseViewController.m */; };
+		CE9AC3FB19FF248C009CE0ED /* PTShoulderAbductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9AC3FA19FF248C009CE0ED /* PTShoulderAbductionViewController.m */; };
+		CEA4401819F402D300F6449E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4401719F402D300F6449E /* main.m */; };
+		CEA4401B19F402D300F6449E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4401A19F402D300F6449E /* AppDelegate.m */; };
+		CEA4402119F402D300F6449E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA4401F19F402D300F6449E /* Main.storyboard */; };
+		CEA4402319F402D300F6449E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA4402219F402D300F6449E /* Images.xcassets */; };
+		CEA4402619F402D300F6449E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA4402419F402D300F6449E /* LaunchScreen.xib */; };
+		CEA4403219F402D300F6449E /* PTMotionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4403119F402D300F6449E /* PTMotionTests.m */; };
+		CEA4404319F4049D00F6449E /* PTForearmSupinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4404219F4049D00F6449E /* PTForearmSupinationViewController.m */; };
+		CEA4404B19F405D200F6449E /* PTMotionState.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4404619F405D200F6449E /* PTMotionState.m */; };
+		CEA4404C19F405D200F6449E /* PTMotionStateContext.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4404819F405D200F6449E /* PTMotionStateContext.m */; };
+		CEA4404D19F405D200F6449E /* PTSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4404A19F405D200F6449E /* PTSession.m */; };
+		CEA4405419F4697D00F6449E /* PTSessionResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4405319F4697D00F6449E /* PTSessionResultsViewController.m */; };
+		CEAE8FB51A7C637B008F0892 /* FigureView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAE8FB41A7C637B008F0892 /* FigureView.m */; };
+		CEAED3821A559EDB00954340 /* CalibrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAED3811A559EDB00954340 /* CalibrationViewController.m */; };
+		CEAED3851A55B8D100954340 /* TUPatientCalibration.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAED3841A55B8D100954340 /* TUPatientCalibration.m */; };
+		CEAED3881A55E98700954340 /* PTMotionStateContext+TUPatientCalibration.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAED3871A55E98700954340 /* PTMotionStateContext+TUPatientCalibration.m */; };
+		CEB560081A01B64700FA6134 /* PTShoulderFlexionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB560071A01B64700FA6134 /* PTShoulderFlexionViewController.m */; };
+		CEB560671A11930700FA6134 /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = CEB560641A11930700FA6134 /* beep.wav */; };
+		CEB560691A11930700FA6134 /* pickup.wav in Resources */ = {isa = PBXBuildFile; fileRef = CEB560661A11930700FA6134 /* pickup.wav */; };
+		CEB5606B1A11955400FA6134 /* tone.wav in Resources */ = {isa = PBXBuildFile; fileRef = CEB5606A1A11955400FA6134 /* tone.wav */; };
+		CEB5606E1A11A7CE00FA6134 /* PTElbowRaiseGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB5606D1A11A7CE00FA6134 /* PTElbowRaiseGameViewController.m */; };
+		CEB560711A11A8B200FA6134 /* PTGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB560701A11A8B200FA6134 /* PTGameViewController.m */; };
+		CEB560771A11ABB700FA6134 /* AstronautView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB560761A11ABB700FA6134 /* AstronautView.m */; };
+		CEB58D041A4DE808004DE064 /* TUAppLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB58D031A4DE808004DE064 /* TUAppLogin.m */; };
+		CEB58D121A4E0291004DE064 /* TUPatient.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB58D111A4E0291004DE064 /* TUPatient.m */; };
+		CEB58D151A4E0537004DE064 /* TUSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB58D141A4E0537004DE064 /* TUSession.m */; };
+		CEB58D181A4E07A8004DE064 /* TUHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB58D171A4E07A8004DE064 /* TUHTTPSessionManager.m */; };
+		CEB58D1E1A4E0EBA004DE064 /* TUSession+PTSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB58D1D1A4E0EBA004DE064 /* TUSession+PTSession.m */; };
+		CEB58D241A4F08BD004DE064 /* PTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB58D231A4F08BD004DE064 /* PTConstants.m */; };
+		CEBCBD5919F47B1600B6D11E /* PTForearmPronationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBCBD5819F47B1600B6D11E /* PTForearmPronationViewController.m */; };
+		CEBCBD5C19F484EE00B6D11E /* PTElbowFlexionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBCBD5B19F484EE00B6D11E /* PTElbowFlexionViewController.m */; };
+		CEBCBD5F19F4854F00B6D11E /* PTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBCBD5E19F4854F00B6D11E /* PTViewController.m */; };
+		CECED8891A4DABAD004E22F8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECED8881A4DABAD004E22F8 /* LoginViewController.m */; };
+		CEDF5FC21A5B02DD00010B0E /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF5FC11A5B02DD00010B0E /* SignupViewController.m */; };
+		CEF74C0A19FEC6490026CE77 /* PTBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF74C0919FEC6490026CE77 /* PTBasicViewController.m */; };
+		CEF74C0E19FED2FA0026CE77 /* pthelpers.c in Sources */ = {isa = PBXBuildFile; fileRef = CEF74C0C19FED2FA0026CE77 /* pthelpers.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA4402C19F402D300F6449E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA4400A19F402D300F6449E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA4401119F402D300F6449E;
+			remoteInfo = PTMotion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0155C8262499B504A0545FFF /* Pods-PTMotion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTMotion.release.xcconfig"; path = "Pods/Target Support Files/Pods-PTMotion/Pods-PTMotion.release.xcconfig"; sourceTree = "<group>"; };
+		087133BFA983F31B10787B3B /* Pods-PTMotion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTMotion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PTMotion/Pods-PTMotion.debug.xcconfig"; sourceTree = "<group>"; };
+		260CB7E21ADF28880038B4BA /* PTElbowRaiseSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTElbowRaiseSViewController.m; path = "View Controllers/PTElbowRaiseSViewController.m"; sourceTree = "<group>"; };
+		260CB7E41ADF29E80038B4BA /* PTElbowRaiseSGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTElbowRaiseSGameViewController.h; sourceTree = "<group>"; };
+		260CB7E51ADF29FA0038B4BA /* PTElbowRaiseSGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTElbowRaiseSGameViewController.m; sourceTree = "<group>"; };
+		260CB7E81ADF30810038B4BA /* PTSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTSettingsViewController.h; sourceTree = "<group>"; };
+		260CB7E91ADF30990038B4BA /* PTSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTSettingsViewController.m; sourceTree = "<group>"; };
+		260CB7EC1AE38B820038B4BA /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		260CB7ED1AE38BA60038B4BA /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		260CB7F01AE38F3D0038B4BA /* DailyGoalsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DailyGoalsViewController.h; sourceTree = "<group>"; };
+		260CB7F11AE38F530038B4BA /* DailyGoalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyGoalsViewController.m; sourceTree = "<group>"; };
+		267358EC1B37FAC000AFA613 /* lightning.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lightning.gif; sourceTree = "<group>"; };
+		267358ED1B37FAC000AFA613 /* manWalking.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = manWalking.gif; sourceTree = "<group>"; };
+		267358F01B3815E000AFA613 /* AnimateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimateViewController.h; sourceTree = "<group>"; };
+		267358F11B3815E000AFA613 /* AnimateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimateViewController.m; sourceTree = "<group>"; };
+		267358F31B3978B500AFA613 /* AnimateViewControllerEFlex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimateViewControllerEFlex.h; sourceTree = "<group>"; };
+		267358F41B3978B500AFA613 /* AnimateViewControllerEFlex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimateViewControllerEFlex.m; sourceTree = "<group>"; };
+		267358F51B3978B500AFA613 /* AnimateViewControllerFor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimateViewControllerFor.h; sourceTree = "<group>"; };
+		267358F61B3978B500AFA613 /* AnimateViewControllerFor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimateViewControllerFor.m; sourceTree = "<group>"; };
+		267358F71B3978B500AFA613 /* AnimateViewControllerHoriz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimateViewControllerHoriz.h; sourceTree = "<group>"; };
+		267358F81B3978B500AFA613 /* AnimateViewControllerHoriz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimateViewControllerHoriz.m; sourceTree = "<group>"; };
+		267358F91B3978B500AFA613 /* AnimateViewControllerRFront.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimateViewControllerRFront.h; sourceTree = "<group>"; };
+		267358FA1B3978B500AFA613 /* AnimateViewControllerRFront.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimateViewControllerRFront.m; sourceTree = "<group>"; };
+		267358FB1B3978B500AFA613 /* AnimateViewControllerRSide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimateViewControllerRSide.h; sourceTree = "<group>"; };
+		267358FC1B3978B500AFA613 /* AnimateViewControllerRSide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimateViewControllerRSide.m; sourceTree = "<group>"; };
+		267358FD1B3978B500AFA613 /* AnimateViewControllerSAdduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimateViewControllerSAdduct.h; sourceTree = "<group>"; };
+		267358FE1B3978B500AFA613 /* AnimateViewControllerSAdduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimateViewControllerSAdduct.m; sourceTree = "<group>"; };
+		267358FF1B3978B500AFA613 /* AnimateViewControllerSFlex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimateViewControllerSFlex.h; sourceTree = "<group>"; };
+		267359001B3978B500AFA613 /* AnimateViewControllerSFlex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimateViewControllerSFlex.m; sourceTree = "<group>"; };
+		267359011B3978B500AFA613 /* AnimateViewControllerSRot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimateViewControllerSRot.h; sourceTree = "<group>"; };
+		267359021B3978B500AFA613 /* AnimateViewControllerSRot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimateViewControllerSRot.m; sourceTree = "<group>"; };
+		26811F071AC779DE00E40081 /* PTElbowRaiseSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTElbowRaiseSViewController.h; sourceTree = "<group>"; };
+		26CD8D331B257E7500EA1709 /* DailyGoals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyGoals.h; sourceTree = "<group>"; };
+		26CD8D341B257E8700EA1709 /* DailyGoals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DailyGoals.m; path = TU/DailyGoals.m; sourceTree = "<group>"; };
+		26DD801A1B2F7DDA00293B18 /* PTHorizShoulderRotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTHorizShoulderRotViewController.h; sourceTree = "<group>"; };
+		26DD801B1B2F7E0300293B18 /* PTHorizShoulderRotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTHorizShoulderRotViewController.m; sourceTree = "<group>"; };
+		26DD801D1B2F7E2200293B18 /* PTHorizShoulderRotGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTHorizShoulderRotGameViewController.h; sourceTree = "<group>"; };
+		26DD801E1B2F7E3400293B18 /* PTHorizShoulderRotGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTHorizShoulderRotGameViewController.m; sourceTree = "<group>"; };
+		26DD80201B2F7E5700293B18 /* PTShoulderRealAbductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTShoulderRealAbductViewController.h; sourceTree = "<group>"; };
+		26DD80211B2F7E6800293B18 /* PTShoulderRealAbductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTShoulderRealAbductViewController.m; sourceTree = "<group>"; };
+		26DD80231B2F7E7D00293B18 /* PTShoulderRealAbductGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTShoulderRealAbductGameViewController.h; sourceTree = "<group>"; };
+		26DD80241B2F7E9400293B18 /* PTShoulderRealAbductGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTShoulderRealAbductGameViewController.m; sourceTree = "<group>"; };
+		CE23F68B1A584E54009A82B4 /* MonkeyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MonkeyView.h; path = Views/MonkeyView.h; sourceTree = "<group>"; };
+		CE23F68C1A584E54009A82B4 /* MonkeyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MonkeyView.m; path = Views/MonkeyView.m; sourceTree = "<group>"; };
+		CE23F68E1A5856D0009A82B4 /* PTShoulderFlexionGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTShoulderFlexionGameViewController.h; path = "View Controllers/PTShoulderFlexionGameViewController.h"; sourceTree = "<group>"; };
+		CE23F68F1A5856D0009A82B4 /* PTShoulderFlexionGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTShoulderFlexionGameViewController.m; path = "View Controllers/PTShoulderFlexionGameViewController.m"; sourceTree = "<group>"; };
+		CE23F6911A5857E7009A82B4 /* PTForearmSupinationGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTForearmSupinationGameViewController.h; path = "View Controllers/PTForearmSupinationGameViewController.h"; sourceTree = "<group>"; };
+		CE23F6921A5857E7009A82B4 /* PTForearmSupinationGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTForearmSupinationGameViewController.m; path = "View Controllers/PTForearmSupinationGameViewController.m"; sourceTree = "<group>"; };
+		CE23F6941A585805009A82B4 /* PTForearmPronationGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTForearmPronationGameViewController.h; path = "View Controllers/PTForearmPronationGameViewController.h"; sourceTree = "<group>"; };
+		CE23F6951A585805009A82B4 /* PTForearmPronationGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTForearmPronationGameViewController.m; path = "View Controllers/PTForearmPronationGameViewController.m"; sourceTree = "<group>"; };
+		CE23F6971A585816009A82B4 /* PTShoulderAbductionGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTShoulderAbductionGameViewController.h; path = "View Controllers/PTShoulderAbductionGameViewController.h"; sourceTree = "<group>"; };
+		CE23F6981A585816009A82B4 /* PTShoulderAbductionGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTShoulderAbductionGameViewController.m; path = "View Controllers/PTShoulderAbductionGameViewController.m"; sourceTree = "<group>"; };
+		CE23F69A1A585884009A82B4 /* PTElbowFlexionGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTElbowFlexionGameViewController.h; path = "View Controllers/PTElbowFlexionGameViewController.h"; sourceTree = "<group>"; };
+		CE23F69B1A585884009A82B4 /* PTElbowFlexionGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTElbowFlexionGameViewController.m; path = "View Controllers/PTElbowFlexionGameViewController.m"; sourceTree = "<group>"; };
+		CE4EEC101A4DBD2E007AFFC4 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuViewController.h; path = "View Controllers/MainMenuViewController.h"; sourceTree = "<group>"; };
+		CE4EEC111A4DBD2E007AFFC4 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuViewController.m; path = "View Controllers/MainMenuViewController.m"; sourceTree = "<group>"; };
+		CE9AC3F619FF209A009CE0ED /* PTElbowRaiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTElbowRaiseViewController.h; path = "View Controllers/PTElbowRaiseViewController.h"; sourceTree = "<group>"; };
+		CE9AC3F719FF209A009CE0ED /* PTElbowRaiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTElbowRaiseViewController.m; path = "View Controllers/PTElbowRaiseViewController.m"; sourceTree = "<group>"; };
+		CE9AC3F919FF248C009CE0ED /* PTShoulderAbductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTShoulderAbductionViewController.h; path = "View Controllers/PTShoulderAbductionViewController.h"; sourceTree = "<group>"; };
+		CE9AC3FA19FF248C009CE0ED /* PTShoulderAbductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTShoulderAbductionViewController.m; path = "View Controllers/PTShoulderAbductionViewController.m"; sourceTree = "<group>"; };
+		CEA4401219F402D300F6449E /* ARMStrokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARMStrokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA4401619F402D300F6449E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA4401719F402D300F6449E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEA4401919F402D300F6449E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEA4401A19F402D300F6449E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEA4402019F402D300F6449E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA4402219F402D300F6449E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Resources/Images.xcassets; sourceTree = "<group>"; };
+		CEA4402519F402D300F6449E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEA4402B19F402D300F6449E /* ARMStrokesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARMStrokesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA4403019F402D300F6449E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA4403119F402D300F6449E /* PTMotionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTMotionTests.m; sourceTree = "<group>"; };
+		CEA4404119F4049D00F6449E /* PTForearmSupinationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTForearmSupinationViewController.h; path = "View Controllers/PTForearmSupinationViewController.h"; sourceTree = "<group>"; };
+		CEA4404219F4049D00F6449E /* PTForearmSupinationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTForearmSupinationViewController.m; path = "View Controllers/PTForearmSupinationViewController.m"; sourceTree = "<group>"; };
+		CEA4404519F405D200F6449E /* PTMotionState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMotionState.h; sourceTree = "<group>"; };
+		CEA4404619F405D200F6449E /* PTMotionState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTMotionState.m; sourceTree = "<group>"; };
+		CEA4404719F405D200F6449E /* PTMotionStateContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMotionStateContext.h; sourceTree = "<group>"; };
+		CEA4404819F405D200F6449E /* PTMotionStateContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTMotionStateContext.m; sourceTree = "<group>"; };
+		CEA4404919F405D200F6449E /* PTSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTSession.h; sourceTree = "<group>"; };
+		CEA4404A19F405D200F6449E /* PTSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTSession.m; sourceTree = "<group>"; };
+		CEA4405219F4697D00F6449E /* PTSessionResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTSessionResultsViewController.h; path = "View Controllers/PTSessionResultsViewController.h"; sourceTree = "<group>"; };
+		CEA4405319F4697D00F6449E /* PTSessionResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTSessionResultsViewController.m; path = "View Controllers/PTSessionResultsViewController.m"; sourceTree = "<group>"; };
+		CEAE8FB31A7C637B008F0892 /* FigureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FigureView.h; path = Views/FigureView.h; sourceTree = "<group>"; };
+		CEAE8FB41A7C637B008F0892 /* FigureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FigureView.m; path = Views/FigureView.m; sourceTree = "<group>"; };
+		CEAED3801A559EDB00954340 /* CalibrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalibrationViewController.h; path = "View Controllers/CalibrationViewController.h"; sourceTree = "<group>"; };
+		CEAED3811A559EDB00954340 /* CalibrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalibrationViewController.m; path = "View Controllers/CalibrationViewController.m"; sourceTree = "<group>"; };
+		CEAED3831A55B8D100954340 /* TUPatientCalibration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TUPatientCalibration.h; path = TU/TUPatientCalibration.h; sourceTree = "<group>"; };
+		CEAED3841A55B8D100954340 /* TUPatientCalibration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TUPatientCalibration.m; path = TU/TUPatientCalibration.m; sourceTree = "<group>"; };
+		CEAED3861A55E98700954340 /* PTMotionStateContext+TUPatientCalibration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PTMotionStateContext+TUPatientCalibration.h"; sourceTree = "<group>"; };
+		CEAED3871A55E98700954340 /* PTMotionStateContext+TUPatientCalibration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PTMotionStateContext+TUPatientCalibration.m"; sourceTree = "<group>"; };
+		CEB560061A01B64700FA6134 /* PTShoulderFlexionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTShoulderFlexionViewController.h; path = "View Controllers/PTShoulderFlexionViewController.h"; sourceTree = "<group>"; };
+		CEB560071A01B64700FA6134 /* PTShoulderFlexionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTShoulderFlexionViewController.m; path = "View Controllers/PTShoulderFlexionViewController.m"; sourceTree = "<group>"; };
+		CEB560641A11930700FA6134 /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
+		CEB560661A11930700FA6134 /* pickup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pickup.wav; sourceTree = "<group>"; };
+		CEB5606A1A11955400FA6134 /* tone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tone.wav; sourceTree = "<group>"; };
+		CEB5606C1A11A7CE00FA6134 /* PTElbowRaiseGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTElbowRaiseGameViewController.h; path = "View Controllers/PTElbowRaiseGameViewController.h"; sourceTree = "<group>"; };
+		CEB5606D1A11A7CE00FA6134 /* PTElbowRaiseGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTElbowRaiseGameViewController.m; path = "View Controllers/PTElbowRaiseGameViewController.m"; sourceTree = "<group>"; };
+		CEB5606F1A11A8B200FA6134 /* PTGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTGameViewController.h; path = "View Controllers/PTGameViewController.h"; sourceTree = "<group>"; };
+		CEB560701A11A8B200FA6134 /* PTGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTGameViewController.m; path = "View Controllers/PTGameViewController.m"; sourceTree = "<group>"; };
+		CEB560751A11ABB700FA6134 /* AstronautView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AstronautView.h; path = Views/AstronautView.h; sourceTree = "<group>"; };
+		CEB560761A11ABB700FA6134 /* AstronautView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AstronautView.m; path = Views/AstronautView.m; sourceTree = "<group>"; };
+		CEB58D021A4DE808004DE064 /* TUAppLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TUAppLogin.h; path = TU/TUAppLogin.h; sourceTree = "<group>"; };
+		CEB58D031A4DE808004DE064 /* TUAppLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TUAppLogin.m; path = TU/TUAppLogin.m; sourceTree = "<group>"; };
+		CEB58D101A4E0291004DE064 /* TUPatient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TUPatient.h; path = TU/TUPatient.h; sourceTree = "<group>"; };
+		CEB58D111A4E0291004DE064 /* TUPatient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TUPatient.m; path = TU/TUPatient.m; sourceTree = "<group>"; };
+		CEB58D131A4E0537004DE064 /* TUSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TUSession.h; path = TU/TUSession.h; sourceTree = "<group>"; };
+		CEB58D141A4E0537004DE064 /* TUSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TUSession.m; path = TU/TUSession.m; sourceTree = "<group>"; };
+		CEB58D161A4E07A8004DE064 /* TUHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TUHTTPSessionManager.h; path = TU/TUHTTPSessionManager.h; sourceTree = "<group>"; };
+		CEB58D171A4E07A8004DE064 /* TUHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TUHTTPSessionManager.m; path = TU/TUHTTPSessionManager.m; sourceTree = "<group>"; };
+		CEB58D1C1A4E0EBA004DE064 /* TUSession+PTSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TUSession+PTSession.h"; sourceTree = "<group>"; };
+		CEB58D1D1A4E0EBA004DE064 /* TUSession+PTSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TUSession+PTSession.m"; sourceTree = "<group>"; };
+		CEB58D221A4F08BD004DE064 /* PTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTConstants.h; sourceTree = "<group>"; };
+		CEB58D231A4F08BD004DE064 /* PTConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTConstants.m; sourceTree = "<group>"; };
+		CEBCBD5719F47B1600B6D11E /* PTForearmPronationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTForearmPronationViewController.h; path = "View Controllers/PTForearmPronationViewController.h"; sourceTree = "<group>"; };
+		CEBCBD5819F47B1600B6D11E /* PTForearmPronationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTForearmPronationViewController.m; path = "View Controllers/PTForearmPronationViewController.m"; sourceTree = "<group>"; };
+		CEBCBD5A19F484EE00B6D11E /* PTElbowFlexionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTElbowFlexionViewController.h; path = "View Controllers/PTElbowFlexionViewController.h"; sourceTree = "<group>"; };
+		CEBCBD5B19F484EE00B6D11E /* PTElbowFlexionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTElbowFlexionViewController.m; path = "View Controllers/PTElbowFlexionViewController.m"; sourceTree = "<group>"; };
+		CEBCBD5D19F4854F00B6D11E /* PTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTViewController.h; path = "View Controllers/PTViewController.h"; sourceTree = "<group>"; };
+		CEBCBD5E19F4854F00B6D11E /* PTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTViewController.m; path = "View Controllers/PTViewController.m"; sourceTree = "<group>"; };
+		CECED8871A4DABAD004E22F8 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = "View Controllers/LoginViewController.h"; sourceTree = "<group>"; };
+		CECED8881A4DABAD004E22F8 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = "View Controllers/LoginViewController.m"; sourceTree = "<group>"; };
+		CEDF5FC01A5B02DD00010B0E /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupViewController.h; path = "View Controllers/SignupViewController.h"; sourceTree = "<group>"; };
+		CEDF5FC11A5B02DD00010B0E /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupViewController.m; path = "View Controllers/SignupViewController.m"; sourceTree = "<group>"; };
+		CEF74C0819FEC6490026CE77 /* PTBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTBasicViewController.h; path = "View Controllers/PTBasicViewController.h"; sourceTree = "<group>"; };
+		CEF74C0919FEC6490026CE77 /* PTBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTBasicViewController.m; path = "View Controllers/PTBasicViewController.m"; sourceTree = "<group>"; };
+		CEF74C0C19FED2FA0026CE77 /* pthelpers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pthelpers.c; sourceTree = "<group>"; };
+		CEF74C0D19FED2FA0026CE77 /* pthelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pthelpers.h; sourceTree = "<group>"; };
+		E562F87EE808B10F27463384 /* libPods-PTMotion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PTMotion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA4400F19F402D300F6449E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CF3744C6DB6AC796431992 /* libPods-PTMotion.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA4402819F402D300F6449E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		260CB7E71ADF30600038B4BA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				260CB7E81ADF30810038B4BA /* PTSettingsViewController.h */,
+				260CB7E91ADF30990038B4BA /* PTSettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		260CB7EB1AE38B640038B4BA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				260CB7EC1AE38B820038B4BA /* ProfileViewController.h */,
+				260CB7ED1AE38BA60038B4BA /* ProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		260CB7EF1AE38F1A0038B4BA /* Daily Goals */ = {
+			isa = PBXGroup;
+			children = (
+				260CB7F01AE38F3D0038B4BA /* DailyGoalsViewController.h */,
+				260CB7F11AE38F530038B4BA /* DailyGoalsViewController.m */,
+			);
+			name = "Daily Goals";
+			sourceTree = "<group>";
+		};
+		267358DE1B37F35100AFA613 /* Animate */ = {
+			isa = PBXGroup;
+			children = (
+				267358F31B3978B500AFA613 /* AnimateViewControllerEFlex.h */,
+				267358F41B3978B500AFA613 /* AnimateViewControllerEFlex.m */,
+				267358F51B3978B500AFA613 /* AnimateViewControllerFor.h */,
+				267358F61B3978B500AFA613 /* AnimateViewControllerFor.m */,
+				267358F71B3978B500AFA613 /* AnimateViewControllerHoriz.h */,
+				267358F81B3978B500AFA613 /* AnimateViewControllerHoriz.m */,
+				267358F91B3978B500AFA613 /* AnimateViewControllerRFront.h */,
+				267358FA1B3978B500AFA613 /* AnimateViewControllerRFront.m */,
+				267358FB1B3978B500AFA613 /* AnimateViewControllerRSide.h */,
+				267358FC1B3978B500AFA613 /* AnimateViewControllerRSide.m */,
+				267358FD1B3978B500AFA613 /* AnimateViewControllerSAdduct.h */,
+				267358FE1B3978B500AFA613 /* AnimateViewControllerSAdduct.m */,
+				267358FF1B3978B500AFA613 /* AnimateViewControllerSFlex.h */,
+				267359001B3978B500AFA613 /* AnimateViewControllerSFlex.m */,
+				267359011B3978B500AFA613 /* AnimateViewControllerSRot.h */,
+				267359021B3978B500AFA613 /* AnimateViewControllerSRot.m */,
+				267358EC1B37FAC000AFA613 /* lightning.gif */,
+				267358ED1B37FAC000AFA613 /* manWalking.gif */,
+				267358F01B3815E000AFA613 /* AnimateViewController.h */,
+				267358F11B3815E000AFA613 /* AnimateViewController.m */,
+			);
+			name = Animate;
+			sourceTree = "<group>";
+		};
+		26811F061AC7797D00E40081 /* Elbow Raise to Side */ = {
+			isa = PBXGroup;
+			children = (
+				26811F071AC779DE00E40081 /* PTElbowRaiseSViewController.h */,
+				260CB7E21ADF28880038B4BA /* PTElbowRaiseSViewController.m */,
+				260CB7E41ADF29E80038B4BA /* PTElbowRaiseSGameViewController.h */,
+				260CB7E51ADF29FA0038B4BA /* PTElbowRaiseSGameViewController.m */,
+			);
+			name = "Elbow Raise to Side";
+			sourceTree = "<group>";
+		};
+		26DD80171B2F7C8900293B18 /* Shoulder Abduction Real */ = {
+			isa = PBXGroup;
+			children = (
+				26DD80201B2F7E5700293B18 /* PTShoulderRealAbductViewController.h */,
+				26DD80211B2F7E6800293B18 /* PTShoulderRealAbductViewController.m */,
+				26DD80231B2F7E7D00293B18 /* PTShoulderRealAbductGameViewController.h */,
+				26DD80241B2F7E9400293B18 /* PTShoulderRealAbductGameViewController.m */,
+			);
+			name = "Shoulder Abduction Real";
+			sourceTree = "<group>";
+		};
+		26DD80181B2F7C9A00293B18 /* Horizontal Shoulder Rotation */ = {
+			isa = PBXGroup;
+			children = (
+				26DD801A1B2F7DDA00293B18 /* PTHorizShoulderRotViewController.h */,
+				26DD801B1B2F7E0300293B18 /* PTHorizShoulderRotViewController.m */,
+				26DD801D1B2F7E2200293B18 /* PTHorizShoulderRotGameViewController.h */,
+				26DD801E1B2F7E3400293B18 /* PTHorizShoulderRotGameViewController.m */,
+			);
+			name = "Horizontal Shoulder Rotation";
+			sourceTree = "<group>";
+		};
+		9C2937FF3DDF6475F0220BE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				087133BFA983F31B10787B3B /* Pods-PTMotion.debug.xcconfig */,
+				0155C8262499B504A0545FFF /* Pods-PTMotion.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEA4400919F402D300F6449E = {
+			isa = PBXGroup;
+			children = (
+				CEA4401419F402D300F6449E /* PTMotion */,
+				CEA4402E19F402D300F6449E /* PTMotionTests */,
+				CEA4401319F402D300F6449E /* Products */,
+				9C2937FF3DDF6475F0220BE1 /* Pods */,
+				DC51E11CC671EF5E932F2853 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA4401319F402D300F6449E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4401219F402D300F6449E /* ARMStrokes.app */,
+				CEA4402B19F402D300F6449E /* ARMStrokesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA4401419F402D300F6449E /* PTMotion */ = {
+			isa = PBXGroup;
+			children = (
+				267358DE1B37F35100AFA613 /* Animate */,
+				260CB7E71ADF30600038B4BA /* Settings */,
+				CEA4401919F402D300F6449E /* AppDelegate.h */,
+				CEA4401A19F402D300F6449E /* AppDelegate.m */,
+				CEA4403B19F4043700F6449E /* View Controllers */,
+				CEB560741A11ABA000FA6134 /* Views */,
+				CEB58D051A4DFF2F004DE064 /* Packages */,
+				CEF74C0B19FED2E90026CE77 /* Misc */,
+				CEA4403C19F4043E00F6449E /* Resources */,
+				CEA4401519F402D300F6449E /* Supporting Files */,
+			);
+			path = PTMotion;
+			sourceTree = "<group>";
+		};
+		CEA4401519F402D300F6449E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4401619F402D300F6449E /* Info.plist */,
+				CEA4401719F402D300F6449E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA4402E19F402D300F6449E /* PTMotionTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4403119F402D300F6449E /* PTMotionTests.m */,
+				CEA4402F19F402D300F6449E /* Supporting Files */,
+			);
+			path = PTMotionTests;
+			sourceTree = "<group>";
+		};
+		CEA4402F19F402D300F6449E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4403019F402D300F6449E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA4403B19F4043700F6449E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				260CB7EF1AE38F1A0038B4BA /* Daily Goals */,
+				260CB7EB1AE38B640038B4BA /* Profile */,
+				CEB58D061A4E00AF004DE064 /* Login View Controller */,
+				CEB58D071A4E00BE004DE064 /* Main Menu View Controller */,
+				CEAED37F1A559EBD00954340 /* Calibration View Controller */,
+				CEB58D091A4E00E2004DE064 /* Motion View Controllers */,
+				CEB58D0A1A4E0121004DE064 /* Session Results View Controller */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CEA4403C19F4043E00F6449E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEB560631A11930700FA6134 /* Audio */,
+				CEA4401F19F402D300F6449E /* Main.storyboard */,
+				CEA4402219F402D300F6449E /* Images.xcassets */,
+				CEA4402419F402D300F6449E /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CEA4404419F405B900F6449E /* PT */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4404F19F405F800F6449E /* MotionState */,
+				CEA4404E19F405D500F6449E /* Session */,
+				CEB58D221A4F08BD004DE064 /* PTConstants.h */,
+				CEB58D231A4F08BD004DE064 /* PTConstants.m */,
+			);
+			path = PT;
+			sourceTree = "<group>";
+		};
+		CEA4404E19F405D500F6449E /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4404919F405D200F6449E /* PTSession.h */,
+				CEA4404A19F405D200F6449E /* PTSession.m */,
+			);
+			name = Session;
+			sourceTree = "<group>";
+		};
+		CEA4404F19F405F800F6449E /* MotionState */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4404719F405D200F6449E /* PTMotionStateContext.h */,
+				CEA4404819F405D200F6449E /* PTMotionStateContext.m */,
+				CEA4404519F405D200F6449E /* PTMotionState.h */,
+				CEA4404619F405D200F6449E /* PTMotionState.m */,
+			);
+			name = MotionState;
+			sourceTree = "<group>";
+		};
+		CEAED37F1A559EBD00954340 /* Calibration View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEAED3801A559EDB00954340 /* CalibrationViewController.h */,
+				CEAED3811A559EDB00954340 /* CalibrationViewController.m */,
+			);
+			name = "Calibration View Controller";
+			sourceTree = "<group>";
+		};
+		CEB560631A11930700FA6134 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				CEB560641A11930700FA6134 /* beep.wav */,
+				CEB5606A1A11955400FA6134 /* tone.wav */,
+				CEB560661A11930700FA6134 /* pickup.wav */,
+			);
+			name = Audio;
+			path = Resources/Audio;
+			sourceTree = "<group>";
+		};
+		CEB560721A11A8B700FA6134 /* Abstract View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEBCBD5D19F4854F00B6D11E /* PTViewController.h */,
+				CEBCBD5E19F4854F00B6D11E /* PTViewController.m */,
+				CEF74C0819FEC6490026CE77 /* PTBasicViewController.h */,
+				CEF74C0919FEC6490026CE77 /* PTBasicViewController.m */,
+				CEB5606F1A11A8B200FA6134 /* PTGameViewController.h */,
+				CEB560701A11A8B200FA6134 /* PTGameViewController.m */,
+			);
+			name = "Abstract View Controllers";
+			sourceTree = "<group>";
+		};
+		CEB560731A11A8C300FA6134 /* Elbow Raise to Front */ = {
+			isa = PBXGroup;
+			children = (
+				CE9AC3F619FF209A009CE0ED /* PTElbowRaiseViewController.h */,
+				CE9AC3F719FF209A009CE0ED /* PTElbowRaiseViewController.m */,
+				CEB5606C1A11A7CE00FA6134 /* PTElbowRaiseGameViewController.h */,
+				CEB5606D1A11A7CE00FA6134 /* PTElbowRaiseGameViewController.m */,
+			);
+			name = "Elbow Raise to Front";
+			sourceTree = "<group>";
+		};
+		CEB560741A11ABA000FA6134 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEAE8FB31A7C637B008F0892 /* FigureView.h */,
+				CEAE8FB41A7C637B008F0892 /* FigureView.m */,
+				CE23F68B1A584E54009A82B4 /* MonkeyView.h */,
+				CE23F68C1A584E54009A82B4 /* MonkeyView.m */,
+				CEB560751A11ABB700FA6134 /* AstronautView.h */,
+				CEB560761A11ABB700FA6134 /* AstronautView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CEB58D011A4DE7B2004DE064 /* TU */ = {
+			isa = PBXGroup;
+			children = (
+				26CD8D341B257E8700EA1709 /* DailyGoals.m */,
+				26CD8D331B257E7500EA1709 /* DailyGoals.h */,
+				CEB58D021A4DE808004DE064 /* TUAppLogin.h */,
+				CEB58D031A4DE808004DE064 /* TUAppLogin.m */,
+				CEB58D101A4E0291004DE064 /* TUPatient.h */,
+				CEB58D111A4E0291004DE064 /* TUPatient.m */,
+				CEAED3831A55B8D100954340 /* TUPatientCalibration.h */,
+				CEAED3841A55B8D100954340 /* TUPatientCalibration.m */,
+				CEB58D131A4E0537004DE064 /* TUSession.h */,
+				CEB58D141A4E0537004DE064 /* TUSession.m */,
+				CEB58D161A4E07A8004DE064 /* TUHTTPSessionManager.h */,
+				CEB58D171A4E07A8004DE064 /* TUHTTPSessionManager.m */,
+			);
+			name = TU;
+			sourceTree = "<group>";
+		};
+		CEB58D051A4DFF2F004DE064 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				CEB58D011A4DE7B2004DE064 /* TU */,
+				CEA4404419F405B900F6449E /* PT */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		CEB58D061A4E00AF004DE064 /* Login View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CECED8871A4DABAD004E22F8 /* LoginViewController.h */,
+				CECED8881A4DABAD004E22F8 /* LoginViewController.m */,
+				CEDF5FC01A5B02DD00010B0E /* SignupViewController.h */,
+				CEDF5FC11A5B02DD00010B0E /* SignupViewController.m */,
+			);
+			name = "Login View Controller";
+			sourceTree = "<group>";
+		};
+		CEB58D071A4E00BE004DE064 /* Main Menu View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE4EEC101A4DBD2E007AFFC4 /* MainMenuViewController.h */,
+				CE4EEC111A4DBD2E007AFFC4 /* MainMenuViewController.m */,
+			);
+			name = "Main Menu View Controller";
+			sourceTree = "<group>";
+		};
+		CEB58D091A4E00E2004DE064 /* Motion View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEB560721A11A8B700FA6134 /* Abstract View Controllers */,
+				26DD80171B2F7C8900293B18 /* Shoulder Abduction Real */,
+				26DD80181B2F7C9A00293B18 /* Horizontal Shoulder Rotation */,
+				CEB58D0B1A4E012D004DE064 /* Forearm Supination (Rotation) */,
+				CEB58D0C1A4E0143004DE064 /* Forearm Pronation */,
+				CEB58D0D1A4E014D004DE064 /* Elbow Flexion */,
+				CEB560731A11A8C300FA6134 /* Elbow Raise to Front */,
+				26811F061AC7797D00E40081 /* Elbow Raise to Side */,
+				CEB58D0E1A4E0175004DE064 /* Shoulder Flexion */,
+				CEB58D0F1A4E017D004DE064 /* Shoulder Abduction (Rotation) */,
+			);
+			name = "Motion View Controllers";
+			sourceTree = "<group>";
+		};
+		CEB58D0A1A4E0121004DE064 /* Session Results View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4405219F4697D00F6449E /* PTSessionResultsViewController.h */,
+				CEA4405319F4697D00F6449E /* PTSessionResultsViewController.m */,
+			);
+			name = "Session Results View Controller";
+			sourceTree = "<group>";
+		};
+		CEB58D0B1A4E012D004DE064 /* Forearm Supination (Rotation) */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4404119F4049D00F6449E /* PTForearmSupinationViewController.h */,
+				CEA4404219F4049D00F6449E /* PTForearmSupinationViewController.m */,
+				CE23F6911A5857E7009A82B4 /* PTForearmSupinationGameViewController.h */,
+				CE23F6921A5857E7009A82B4 /* PTForearmSupinationGameViewController.m */,
+			);
+			name = "Forearm Supination (Rotation)";
+			sourceTree = "<group>";
+		};
+		CEB58D0C1A4E0143004DE064 /* Forearm Pronation */ = {
+			isa = PBXGroup;
+			children = (
+				CEBCBD5719F47B1600B6D11E /* PTForearmPronationViewController.h */,
+				CEBCBD5819F47B1600B6D11E /* PTForearmPronationViewController.m */,
+				CE23F6941A585805009A82B4 /* PTForearmPronationGameViewController.h */,
+				CE23F6951A585805009A82B4 /* PTForearmPronationGameViewController.m */,
+			);
+			name = "Forearm Pronation";
+			sourceTree = "<group>";
+		};
+		CEB58D0D1A4E014D004DE064 /* Elbow Flexion */ = {
+			isa = PBXGroup;
+			children = (
+				CEBCBD5A19F484EE00B6D11E /* PTElbowFlexionViewController.h */,
+				CEBCBD5B19F484EE00B6D11E /* PTElbowFlexionViewController.m */,
+				CE23F69A1A585884009A82B4 /* PTElbowFlexionGameViewController.h */,
+				CE23F69B1A585884009A82B4 /* PTElbowFlexionGameViewController.m */,
+			);
+			name = "Elbow Flexion";
+			sourceTree = "<group>";
+		};
+		CEB58D0E1A4E0175004DE064 /* Shoulder Flexion */ = {
+			isa = PBXGroup;
+			children = (
+				CEB560061A01B64700FA6134 /* PTShoulderFlexionViewController.h */,
+				CEB560071A01B64700FA6134 /* PTShoulderFlexionViewController.m */,
+				CE23F68E1A5856D0009A82B4 /* PTShoulderFlexionGameViewController.h */,
+				CE23F68F1A5856D0009A82B4 /* PTShoulderFlexionGameViewController.m */,
+			);
+			name = "Shoulder Flexion";
+			sourceTree = "<group>";
+		};
+		CEB58D0F1A4E017D004DE064 /* Shoulder Abduction (Rotation) */ = {
+			isa = PBXGroup;
+			children = (
+				CE9AC3F919FF248C009CE0ED /* PTShoulderAbductionViewController.h */,
+				CE9AC3FA19FF248C009CE0ED /* PTShoulderAbductionViewController.m */,
+				CE23F6971A585816009A82B4 /* PTShoulderAbductionGameViewController.h */,
+				CE23F6981A585816009A82B4 /* PTShoulderAbductionGameViewController.m */,
+			);
+			name = "Shoulder Abduction (Rotation)";
+			sourceTree = "<group>";
+		};
+		CEF74C0B19FED2E90026CE77 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				CEF74C0D19FED2FA0026CE77 /* pthelpers.h */,
+				CEF74C0C19FED2FA0026CE77 /* pthelpers.c */,
+				CEB58D1C1A4E0EBA004DE064 /* TUSession+PTSession.h */,
+				CEB58D1D1A4E0EBA004DE064 /* TUSession+PTSession.m */,
+				CEAED3861A55E98700954340 /* PTMotionStateContext+TUPatientCalibration.h */,
+				CEAED3871A55E98700954340 /* PTMotionStateContext+TUPatientCalibration.m */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		DC51E11CC671EF5E932F2853 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E562F87EE808B10F27463384 /* libPods-PTMotion.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA4401119F402D300F6449E /* ARMStrokes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA4403519F402D300F6449E /* Build configuration list for PBXNativeTarget "ARMStrokes" */;
+			buildPhases = (
+				55B366934C7D7CA812736FFC /* Check Pods Manifest.lock */,
+				CEA4400E19F402D300F6449E /* Sources */,
+				CEA4400F19F402D300F6449E /* Frameworks */,
+				CEA4401019F402D300F6449E /* Resources */,
+				3D3243961EBDC7C53C9DACFA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARMStrokes;
+			productName = PTMotion;
+			productReference = CEA4401219F402D300F6449E /* ARMStrokes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA4402A19F402D300F6449E /* ARMStrokesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA4403819F402D300F6449E /* Build configuration list for PBXNativeTarget "ARMStrokesTests" */;
+			buildPhases = (
+				CEA4402719F402D300F6449E /* Sources */,
+				CEA4402819F402D300F6449E /* Frameworks */,
+				CEA4402919F402D300F6449E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA4402D19F402D300F6449E /* PBXTargetDependency */,
+			);
+			name = ARMStrokesTests;
+			productName = PTMotionTests;
+			productReference = CEA4402B19F402D300F6449E /* ARMStrokesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA4400A19F402D300F6449E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "David Messing";
+				TargetAttributes = {
+					CEA4401119F402D300F6449E = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 2B4JHQA94L;
+					};
+					CEA4402A19F402D300F6449E = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 2B4JHQA94L;
+						TestTargetID = CEA4401119F402D300F6449E;
+					};
+				};
+			};
+			buildConfigurationList = CEA4400D19F402D300F6449E /* Build configuration list for PBXProject "ARMStrokes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA4400919F402D300F6449E;
+			productRefGroup = CEA4401319F402D300F6449E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA4401119F402D300F6449E /* ARMStrokes */,
+				CEA4402A19F402D300F6449E /* ARMStrokesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA4401019F402D300F6449E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB560671A11930700FA6134 /* beep.wav in Resources */,
+				CEA4402119F402D300F6449E /* Main.storyboard in Resources */,
+				CEA4402619F402D300F6449E /* LaunchScreen.xib in Resources */,
+				267358EF1B37FAC000AFA613 /* manWalking.gif in Resources */,
+				267358EE1B37FAC000AFA613 /* lightning.gif in Resources */,
+				CEB5606B1A11955400FA6134 /* tone.wav in Resources */,
+				CEA4402319F402D300F6449E /* Images.xcassets in Resources */,
+				CEB560691A11930700FA6134 /* pickup.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA4402919F402D300F6449E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D3243961EBDC7C53C9DACFA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PTMotion/Pods-PTMotion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55B366934C7D7CA812736FFC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA4400E19F402D300F6449E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267358F21B3815E000AFA613 /* AnimateViewController.m in Sources */,
+				CEB58D041A4DE808004DE064 /* TUAppLogin.m in Sources */,
+				260CB7EA1ADF30990038B4BA /* PTSettingsViewController.m in Sources */,
+				26DD80251B2F7E9400293B18 /* PTShoulderRealAbductGameViewController.m in Sources */,
+				CEAED3821A559EDB00954340 /* CalibrationViewController.m in Sources */,
+				CEA4401B19F402D300F6449E /* AppDelegate.m in Sources */,
+				CEA4404C19F405D200F6449E /* PTMotionStateContext.m in Sources */,
+				CEBCBD5C19F484EE00B6D11E /* PTElbowFlexionViewController.m in Sources */,
+				260CB7EE1AE38BA60038B4BA /* ProfileViewController.m in Sources */,
+				26DD80221B2F7E6800293B18 /* PTShoulderRealAbductViewController.m in Sources */,
+				CE23F68D1A584E54009A82B4 /* MonkeyView.m in Sources */,
+				CEA4405419F4697D00F6449E /* PTSessionResultsViewController.m in Sources */,
+				CEAED3881A55E98700954340 /* PTMotionStateContext+TUPatientCalibration.m in Sources */,
+				CEB58D151A4E0537004DE064 /* TUSession.m in Sources */,
+				260CB7F21AE38F530038B4BA /* DailyGoalsViewController.m in Sources */,
+				CE4EEC121A4DBD2E007AFFC4 /* MainMenuViewController.m in Sources */,
+				CEF74C0A19FEC6490026CE77 /* PTBasicViewController.m in Sources */,
+				CE9AC3FB19FF248C009CE0ED /* PTShoulderAbductionViewController.m in Sources */,
+				260CB7E61ADF29FA0038B4BA /* PTElbowRaiseSGameViewController.m in Sources */,
+				267359031B3978B500AFA613 /* AnimateViewControllerEFlex.m in Sources */,
+				26CD8D351B257E8700EA1709 /* DailyGoals.m in Sources */,
+				267359081B3978B500AFA613 /* AnimateViewControllerSAdduct.m in Sources */,
+				267359051B3978B500AFA613 /* AnimateViewControllerHoriz.m in Sources */,
+				CEB58D1E1A4E0EBA004DE064 /* TUSession+PTSession.m in Sources */,
+				CEB58D181A4E07A8004DE064 /* TUHTTPSessionManager.m in Sources */,
+				CEB58D121A4E0291004DE064 /* TUPatient.m in Sources */,
+				CEBCBD5F19F4854F00B6D11E /* PTViewController.m in Sources */,
+				CE9AC3F819FF209A009CE0ED /* PTElbowRaiseViewController.m in Sources */,
+				2673590A1B3978B500AFA613 /* AnimateViewControllerSRot.m in Sources */,
+				CEA4401819F402D300F6449E /* main.m in Sources */,
+				CEB58D241A4F08BD004DE064 /* PTConstants.m in Sources */,
+				CEF74C0E19FED2FA0026CE77 /* pthelpers.c in Sources */,
+				CEB560711A11A8B200FA6134 /* PTGameViewController.m in Sources */,
+				26DD801F1B2F7E3400293B18 /* PTHorizShoulderRotGameViewController.m in Sources */,
+				CE23F69C1A585884009A82B4 /* PTElbowFlexionGameViewController.m in Sources */,
+				CE23F6931A5857E7009A82B4 /* PTForearmSupinationGameViewController.m in Sources */,
+				CE23F6991A585816009A82B4 /* PTShoulderAbductionGameViewController.m in Sources */,
+				CEB5606E1A11A7CE00FA6134 /* PTElbowRaiseGameViewController.m in Sources */,
+				267359071B3978B500AFA613 /* AnimateViewControllerRSide.m in Sources */,
+				CEAE8FB51A7C637B008F0892 /* FigureView.m in Sources */,
+				267359091B3978B500AFA613 /* AnimateViewControllerSFlex.m in Sources */,
+				267359061B3978B500AFA613 /* AnimateViewControllerRFront.m in Sources */,
+				CEAED3851A55B8D100954340 /* TUPatientCalibration.m in Sources */,
+				CEA4404319F4049D00F6449E /* PTForearmSupinationViewController.m in Sources */,
+				260CB7E31ADF28880038B4BA /* PTElbowRaiseSViewController.m in Sources */,
+				CEA4404B19F405D200F6449E /* PTMotionState.m in Sources */,
+				CEB560771A11ABB700FA6134 /* AstronautView.m in Sources */,
+				CE23F6961A585805009A82B4 /* PTForearmPronationGameViewController.m in Sources */,
+				CEDF5FC21A5B02DD00010B0E /* SignupViewController.m in Sources */,
+				CECED8891A4DABAD004E22F8 /* LoginViewController.m in Sources */,
+				26DD801C1B2F7E0300293B18 /* PTHorizShoulderRotViewController.m in Sources */,
+				CEBCBD5919F47B1600B6D11E /* PTForearmPronationViewController.m in Sources */,
+				267359041B3978B500AFA613 /* AnimateViewControllerFor.m in Sources */,
+				CEB560081A01B64700FA6134 /* PTShoulderFlexionViewController.m in Sources */,
+				CE23F6901A5856D0009A82B4 /* PTShoulderFlexionGameViewController.m in Sources */,
+				CEA4404D19F405D200F6449E /* PTSession.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA4402719F402D300F6449E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA4403219F402D300F6449E /* PTMotionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA4402D19F402D300F6449E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA4401119F402D300F6449E /* ARMStrokes */;
+			targetProxy = CEA4402C19F402D300F6449E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEA4401F19F402D300F6449E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA4402019F402D300F6449E /* Base */,
+			);
+			name = Main.storyboard;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CEA4402419F402D300F6449E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA4402519F402D300F6449E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA4403319F402D300F6449E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEA4403419F402D300F6449E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: David Messing (F3DZMTG4N6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: David Messing (F3DZMTG4N6)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA4403619F402D300F6449E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 087133BFA983F31B10787B3B /* Pods-PTMotion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PTMotion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = ARMStrokes;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		CEA4403719F402D300F6449E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0155C8262499B504A0545FFF /* Pods-PTMotion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PTMotion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = ARMStrokes;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		CEA4403919F402D300F6449E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PTMotionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ARMStrokesTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARMStrokes.app/ARMStrokes";
+			};
+			name = Debug;
+		};
+		CEA4403A19F402D300F6449E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PTMotionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ARMStrokesTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARMStrokes.app/ARMStrokes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA4400D19F402D300F6449E /* Build configuration list for PBXProject "ARMStrokes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA4403319F402D300F6449E /* Debug */,
+				CEA4403419F402D300F6449E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA4403519F402D300F6449E /* Build configuration list for PBXNativeTarget "ARMStrokes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA4403619F402D300F6449E /* Debug */,
+				CEA4403719F402D300F6449E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA4403819F402D300F6449E /* Build configuration list for PBXNativeTarget "ARMStrokesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA4403919F402D300F6449E /* Debug */,
+				CEA4403A19F402D300F6449E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA4400A19F402D300F6449E /* Project object */;
+}
